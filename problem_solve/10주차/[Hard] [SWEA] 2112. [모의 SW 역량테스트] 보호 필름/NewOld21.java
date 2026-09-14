@@ -47,8 +47,10 @@ class Solution
                 if(preNum != film[j][i]){
                     preNum = film[j][i];
                     cnt = 1;
+                }else{
+                    cnt++;
                 }
-                cnt++;
+                
                 if(cnt>=K){
                     break;
                 }
@@ -63,20 +65,19 @@ class Solution
     }
 
     private static void dfs(int idx, int drug){
-        if(ans<drug){
+        if(ans<=drug){
             return;
         }
         if(checkFilm()){
-            if(ans>drug){
-                ans = drug;
-                return;
-            }
+            ans = drug;
+            return;
         }
         if(idx==D){
             return;
         }
-        dfs(idx+1, drug);
+        int[] pre_film = new int[W];
         for(int i=0; i<W; i++){
+            pre_film[i] = film[idx][i];
             film[idx][i] = 1;
         }
         dfs(idx+1, drug+1);
@@ -84,5 +85,13 @@ class Solution
             film[idx][i] = 0;
         }
         dfs(idx+1, drug+1);
+        for(int i=0; i<W; i++){
+            film[idx][i] = pre_film[i];
+        }
+        dfs(idx+1, drug);
     }
 }
+
+// DFS 경우의 수	O(3^D)
+// checkFilm()	O(D*W)
+// 전체 시간복잡도	O(3^D * D * W)

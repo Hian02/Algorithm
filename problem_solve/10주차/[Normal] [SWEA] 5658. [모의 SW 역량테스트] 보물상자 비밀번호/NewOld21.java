@@ -38,3 +38,7 @@ class Solution
 		}
 	}
 }
+
+// 순차 탐색 O(N^2)​
+// 정렬 O(NlogN)
+// 시간 복잡도 O(N^2+NlogN) => O(N^2)​
