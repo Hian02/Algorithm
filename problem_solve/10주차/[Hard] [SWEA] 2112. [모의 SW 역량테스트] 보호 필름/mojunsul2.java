@@ -76,7 +76,6 @@ class Solution {
     private static boolean check() {
         for (int j = 0; j < W; j++) {
             int cnt = 1;
-            boolean maxPass = false;
             
             boolean prev = (drug[0] == 0) ? map[0][j] : (drug[0] == 2);
             
