@@ -76,7 +76,6 @@ class Solution {
     private static boolean check() {
         for (int j = 0; j < W; j++) {
             int cnt = 1;
-            boolean pass = false;
             
             if (K == 1) continue;
 
