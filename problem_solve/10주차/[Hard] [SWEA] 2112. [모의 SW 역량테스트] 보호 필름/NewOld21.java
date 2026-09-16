@@ -65,26 +65,37 @@ class Solution
     }
 
     private static void dfs(int idx, int drug){
+        
+        // 현재 측정한 약품의 최소 투입 횟수보다 클 경우
         if(ans<=drug){
             return;
         }
+        // 성능 검사 
         if(checkFilm()){
             ans = drug;
             return;
         }
+
+        // 끝까지 다 돌았다면
         if(idx==D){
             return;
         }
+
         int[] pre_film = new int[W];
+        // 약품 1로 투입
         for(int i=0; i<W; i++){
             pre_film[i] = film[idx][i];
             film[idx][i] = 1;
         }
         dfs(idx+1, drug+1);
+
+        // 약품 0로 투입
         for(int i=0; i<W; i++){
             film[idx][i] = 0;
         }
         dfs(idx+1, drug+1);
+
+        // 약품 투입X
         for(int i=0; i<W; i++){
             film[idx][i] = pre_film[i];
         }
