@@ -51,16 +51,15 @@
 
 <!-- 이 부분을 업데이트하면 자동으로 파일이 생성됩니다. -->
 <!-- provlem_solve/{일자}/{스터디멤버 깃헙 id} 형태로 생성됩니다.  -->
-### 📝💯 10주차 문제
+### 📝💯 11주차 문제
 <!-- 문제 바꾸면서 꼭!!!!!!!!! 몇 주차인지 수정하기!!!!!!!!!! -->
 
 <!-- 이 제목과 문제 링크를 수정해 `main` 브랜치에 push하면 `problem_solve/` 하위에 폴더 자동 생성 -->
 
-[Normal] [5658. [모의 SW 역량테스트] 보물상자 비밀번호](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRUN9KfZ8DFAUo)  
-[Normal] [2382. [모의 SW 역량테스트] 미생물 격리](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl)  
-[Hard] [2112. [모의 SW 역량테스트] 보호 필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu)  
-[Hard] [3234. 준환이의 양팔저울](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWAe7XSKfUUDFAUw)  
-[Pro] [전기차충전소](https://swexpertacademy.com/main/talk/solvingClub/problemView.do?solveclubId=AZt8IiBqxEDHBIN6&contestProbId=AZih5d6avQzHBINp&probBoxId=AZt8IiBqxEHHBIN6&type=PROBLEM&problemBoxTitle=Pro+%EA%B8%B0%EC%B6%9C&problemBoxCnt=31)  
+[Normal] [3282. 0/1 Knapsack](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBJAVpqrzQDFAWr)  
+[Normal] [완전범죄](https://school.programmers.co.kr/learn/courses/30/lessons/389480?language=java)  
+[Hard] [에어컨](https://school.programmers.co.kr/learn/courses/30/lessons/214289)  
+[Hard] [8501. 은비의 동전 뒤집기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWz50CHK8DgDFARQ)  
 
 <!-- 문제 바꾸면서 꼭!!!!!!!!! 몇 주차인지 수정하기!!!!!!!!!! -->
 <br />
